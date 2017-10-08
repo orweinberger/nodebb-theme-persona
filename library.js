@@ -108,7 +108,7 @@ library.addUserToTopic = function(data, callback) {
 			if (err) {
 				return callback(err);
 			}
-			
+
 			data.templateData.loggedInUser = userdata;
 			callback(null, data);
 		});
@@ -121,7 +121,7 @@ library.getLinkTags = function (data, callback) {
 	data.links.push({
 		rel: 'prefetch stylesheet',
 		type: '',
-		href: 'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700',
+		href: 'https://fonts.googleapis.com/css?family=Rubik:400,500,700,900',,
 	});
 
 	callback(null, data);
